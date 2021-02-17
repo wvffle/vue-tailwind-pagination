@@ -58,13 +58,13 @@
 
       <div class="flex items-center">
       <span class="pr-2 text-gray-400 font-medium">
-      Go to page
+      Idź do strony
       </span>
         <div class="w-14 rounded-md border border-indigo-400 px-1 py-1">
           <input v-model.number="input" class="w-12 focus:outline-none px-2" type="text">
         </div>
         <div @click.prevent="changePage(input)" class="flex items-center pl-4 font-medium cursor-pointer">
-          Go
+          Idź
           <svg class="h-4 w-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
           </svg>
